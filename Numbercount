@@ -1,0 +1,43 @@
+import java.util.*; 
+
+class NumberCount
+
+{
+
+public static void main(String args[])
+
+{
+
+int num, even=0, odd=0, rem;
+
+Scanner sc=new Scanner (System.in);
+
+System.out.println("Enter the number:");
+
+num=sc.nextInt();
+
+while(num!=0)
+
+{
+
+rem=num%10;
+
+if((rem&1) == 1)
+
+odd++;
+
+else
+
+even++;
+
+num=num/10;
+
+}
+
+System.out.println("even digits:"+even);
+
+System.out.println("odd digits:"+odd);
+
+}
+
+}
