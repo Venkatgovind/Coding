@@ -1,0 +1,17 @@
+import java.util.*;
+public class MyClass
+ {
+    public static void main(String args[])
+    {
+      int N,result, result1;
+      Scanner sc=new Scanner (System.in);
+      System.out.print("Enter N value:");
+      N=sc.nextInt();
+      result=N*N;
+      result1=result%100;
+      if(result1==N)
+      System.out.println("Automorphic Number");
+      else
+      System.out.println("Not Automorphic Number");
+    }
+}
