@@ -1,14 +1,51 @@
+import java.util.*;
+
 class Duplicatenumber 
+
 {
+
  public static void main(String args[])
+
  {
- int [] arr = new int []{1,2,3,4,5,3,2,8,4,6,7}; System.out.println("Duplicate numbers are: "); 
-for(int i = 0; i < arr.length; i++) 
+
+ Scanner sc=new Scanner(System.in);
+
+         int size,i;
+
+         System.out.println("Enter array size:");
+
+         size=sc.nextInt();
+
+         int ar[];
+
+         ar=new int[size];
+
+         System.out.println("Enter array elements:"); 
+
+         for(i=0;i<size;i++)
+
+         { 
+
+             ar[i]=sc.nextInt();
+
+             } 
+
+ System.out.println("Duplicate numbers are: "); 
+
+for( i = 0; i < ar.length; i++) 
+
 { 
-for(int j = i + 1; j < arr.length; j++) 
-{ if(arr[i] == arr[j]) 
-System.out.println(arr[j]); 
+
+for(int j = i + 1; j < ar.length; j++) 
+
+{ if(ar[i] == ar[j]) 
+
+System.out.println(ar[j]); 
+
 }
+
  }
+
  } 
+
 }
