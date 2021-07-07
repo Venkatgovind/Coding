@@ -1,0 +1,71 @@
+import java.util.*;
+
+public class EvenOdd{
+
+    public static void main(String args[]) 
+
+    { 
+
+        int size,i,even=0,odd=0;
+
+       System.out.println("Enter size:");
+
+      Scanner sc=new Scanner (System.in);
+
+      size=sc.nextInt();
+
+      int ar[];
+
+      ar=new int[size];
+
+      System.out.println("Enter array Elements:");
+
+      for(i=0;i<size;i++)
+
+      {
+
+         ar[i]=sc.nextInt();
+
+      }
+
+      for(i=0;i<size;i++)
+
+      {
+
+        if(ar[i]%2==0)
+
+        {
+
+        even++;
+
+        }
+
+        else
+
+        odd++;
+
+        
+
+      }
+
+      System.out.println(even);
+
+      System.out.println(odd);
+
+      
+
+      int n=even*odd;
+
+      if(n%2==0)
+
+         System.out.println("even");
+
+      else
+
+       System.out.println("odd");
+
+       
+
+    }
+
+}
