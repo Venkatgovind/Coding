@@ -12,7 +12,7 @@ public class Main {
             if (i == words.length - 1) 
                 reversedString = words[i] + reversedString; 
             else
-                reversedString = " " + words[i] + reversedString; 
+                reversedString = "." + words[i] + reversedString; 
         } 
  
         
