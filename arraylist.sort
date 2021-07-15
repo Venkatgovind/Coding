@@ -1,0 +1,28 @@
+import java.util.*;
+class solution
+{ 
+      public static void main(String args[]) 
+
+    { 
+
+        ArrayList<Integer>a=new ArrayList<Integer>();
+
+        a.add(10); 
+        a.add(20); 
+        a.add(30); 
+        a.add(40);
+
+        System.out.println("list a"+a);
+        System.out.println(" ");
+        ArrayList<Integer>b=new ArrayList<Integer>();
+        b.add(100); 
+        b.add(200);
+        b.add(300);
+        b.add(400);
+        System.out.println("list b"+b);
+        a.addAll(b);
+        Collections.sort(a);
+        System.out.print(a);
+
+     } 
+ }
