@@ -38,9 +38,13 @@ public class twin_Prime
 
     System.out.print("Enter n1:");
 
+    System.out.println(" ");
+
     int n1=sc.nextInt();
 
     System.out.print("Enter n2:");
+
+    System.out.println(" ");
 
     int n2=sc.nextInt();
 
