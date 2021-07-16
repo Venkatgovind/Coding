@@ -21,7 +21,9 @@ public class Solution
     if(ans)
    {
       int index=A.indexOf(value);
-      A.set(index,99);
+      System.out.println("enter the value1:");
+      int value1=sc.nextInt();
+      A.set(index,value1);
        System.out.println(A);
    }
       else
