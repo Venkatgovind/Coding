@@ -8,7 +8,7 @@ public class map1
 
    {
 
-      HashMap<Integer,Integer> x=new HashMap<Integer,Integer>(); 
+      Hashtable<Integer,Integer> x=new Hashtable<Integer,Integer>(); 
 
       Scanner sc=new Scanner(System.in); 
 
@@ -55,4 +55,4 @@ public class map1
        System.out.println("false");
 
      }
-}
+     }
